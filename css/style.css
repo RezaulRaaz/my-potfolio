@@ -105,3 +105,38 @@ body{
     padding: 25px 0;
 }
 /* biography section style end */
+
+/* latest work style start */
+.latest-work-title {
+    width: 100%;
+    margin-top: 70px;
+}
+.latest-work-title h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 500;
+
+}
+.latest-work{
+    width: 100%; 
+    background-image: url('../images/latest-work-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0;
+    height: 272px;
+
+}
+.latest-work-card{
+    width: 30%;
+    float: left;
+    margin-right: 35gpx!important;
+    margin: 0 auto;
+}
+.latest-work-card:last-child{
+    margin-right: 0px;
+}
+.latest-work-card img{
+    width: 100%;
+}
